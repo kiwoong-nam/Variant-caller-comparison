@@ -1,0 +1,16 @@
+data_prep: Generating simulated fastq files from a simulated insect population
+distant_ref : Creating distant Refrence with D=0.005, 0.01, 0.015, 0.020
+Illumina
+	: Variant calling using the reference genome sequences with D=0 Distance from MCA
+Illumina.R.01
+	: Variant calling using the reference genome sequences with D=0.01
+Illumina.R.02
+	: Variant calling using the reference genome sequences with D=0.02
+Illumina.R.005
+	: Variant calling using the reference genome sequences with D=0.005
+Illumina.R.015
+	: Variant calling using the reference genome sequences with D=0.015
+Illumina_VQSR
+	:Variant calling to Prepare a vcf file only with true positive SNVs and another vcf file for taining dataset for VQSR at GATK, when D = 0% 
+data_prep: forward simulation to generate an insect population and another simulation to generate fastq files from this population
+
