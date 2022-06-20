@@ -12,5 +12,9 @@ Illumina.R.015
 	: Variant calling using the reference genome sequences with D=0.015
 Illumina_VQSR
 	:Variant calling to Prepare a vcf file only with true positive SNVs and another vcf file for taining dataset for VQSR at GATK, when D = 0% 
-data_prep: forward simulation to generate an insect population and another simulation to generate fastq files from this population
+low_coverage_mapping: mappings of low_coverage reads
+bwa_mapping: mappings of high coveragge reads using bwa-mem
+
+
+
 
